@@ -1,0 +1,51 @@
+body {
+  display: block;
+  width: 80%;
+  margin: auto;
+  background-color: aquamarine;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  background-color: azure;
+  height: 100%;
+  padding: 2rem;
+}
+
+#add-note,
+#add-button {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+#add-note {
+  width: 80%;
+}
+
+#notes-container {
+  margin: 1em;
+}
+.title {
+  font-size: 2rem;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.note {
+  border: 2px dashed grey;
+  width: 80%;
+  margin: 0.5em;
+  padding: 1em;
+}
+.note-content {
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.actions button {
+  padding: 0.5em;
+  margin-right: 1em;
+}

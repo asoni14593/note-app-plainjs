@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/toast.css" />
+    <script src="./lib/Tree.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/toast.js"></script>
+    <script src="./js/operations.js"></script>
+    <title>My Notes App - Using Vanila JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Notes App - Using Vanila JavaScript</h1>
+      <div id="top-bar">
+        <input type="text" id="add-note" />
+        <input
+          type="button"
+          id="add-button"
+          value="Submit"
+          onclick="addNote(event)"
+        />
+      </div>
+      <div id="notes-container"></div>
+      <div id="snackbar"></div>
+    </div>
+  </body>
+</html>
